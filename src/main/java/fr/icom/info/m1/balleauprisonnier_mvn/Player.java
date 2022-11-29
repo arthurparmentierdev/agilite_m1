@@ -25,7 +25,6 @@ public class Player {
     ImageView PlayerDirectionArrow;
 
     GraphicsContext graphicsContext;
-    Projectile projectile;
 
     /**
      * Constructeur du Joueur

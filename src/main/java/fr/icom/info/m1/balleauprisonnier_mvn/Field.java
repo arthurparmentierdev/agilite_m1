@@ -60,7 +60,7 @@ public class Field extends Canvas {
         equipe1[1] = new Player(gc, colorMap[1], w/2, 20, "top");
         equipe1[1].display();
 
-        Projectile balloon1 = new Projectile(5, gc,30, w/2, 150);
+        Projectile balloon1 = Projectile.getInstance();
 
         equipe1[2] = new PlayerAI(gc, colorMap[2], w/4, 20, "top");
         equipe1[2].display();
@@ -70,8 +70,6 @@ public class Field extends Canvas {
 
         equipe2[1] = new Player(gc, colorMap[1], w/2, h-50, "bottom");
         equipe2[1].display();
-
-        Projectile balloon2 = new Projectile(5, gc, 30, w/2, h-100);
 
         equipe2[2] = new PlayerAI(gc, colorMap[2], w/4, h-50, "bottom");
         equipe2[2].display();
@@ -154,7 +152,7 @@ public class Field extends Canvas {
                         }
                         if (i == 1 && input.contains("SPACE")) {
                             equipe1[i].shoot();
-                            balloon1.display();
+                            balloon1.display(gc, w/2, 150);
                         }
                     }
 
@@ -179,7 +177,7 @@ public class Field extends Canvas {
                         }
                         if (i == 1 && (input.contains("NUMPAD0") || input.contains("DIGIT0"))) {
                             equipe2[i].shoot();
-                            balloon2.display();
+                            balloon1.display(gc, w/2, h-100);
                         }
                     }
 
