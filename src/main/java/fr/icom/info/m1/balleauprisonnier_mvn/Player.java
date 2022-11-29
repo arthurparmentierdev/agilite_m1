@@ -25,6 +25,7 @@ public class Player {
     ImageView PlayerDirectionArrow;
 
     GraphicsContext graphicsContext;
+    Projectile projectile;
 
     /**
      * Constructeur du Joueur
@@ -64,7 +65,7 @@ public class Player {
 
         // Tous les joueurs ont une vitesse aleatoire entre 0.0 et 1.0
         Random randomGenerator = new Random();
-        float diff = randomGenerator.nextFloat(0.5F);
+        float diff = randomGenerator.nextFloat();
 
         // Pour commencer les joueurs ont une vitesse / un pas fixe
         step = 1 + diff;
@@ -132,7 +133,6 @@ public class Player {
         }
     }
 
-
     void shoot() {
         sprite.playShoot();
     }
@@ -153,5 +153,4 @@ public class Player {
         sprite.setX(x);
         sprite.setY(y);
     }
-
 }
