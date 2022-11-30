@@ -11,7 +11,7 @@ Actuellement le projet est toujours en développement et n'est pas terminé. En 
 
 ## _Environnement_
 
-- Langage de programmation principal : **Java** [Site officiel]()
+- Langage de programmation principal : **Java 17** [Site officiel]()
 - Framework utilisé pour l'interface graphique : **JavaFX** [Site officiel](https://openjfx.io/)
 - Outil de build : **Maven** [Site officiel](https://maven.apache.org/)
 
