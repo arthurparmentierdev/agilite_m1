@@ -34,7 +34,7 @@ Pour le **Joueur 1**  (en bas) :
 | Orienter le joueur à gauche | Flèche du haut |
 | Tirer la balle | Espace |
 
-Pour le **Joueur IA** (en haut) : 
+Pour le **Joueur 2** (en haut) : 
 | Déplacement | Touche |
 | ------ | ------ |
 | Droite | D |
