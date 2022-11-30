@@ -3,6 +3,8 @@ Projet réalisé par Arthur *PARMENTIER*, Cyrielle *BARAILLER* et Victor *SIGOGN
 ***
 Dans le cadre de notre 1ère année de Master Informatique à l'Université Lumière Lyon 2, nous avons suivi le cours de Conception agile de projets informatiques et génie logiciel de Valentin *LACHAND-PASCAL*. Lors de ce cours nous devions produire un jeu simulant une partie de balle au prisonnier que vous pouvez retrouver sur ce GitHub.
 
+Vous pouvez retrouver notre rapport au format PDF à la racine du projet.
+
 ![Photo du jeu](src/main/resources/assets/jeu.png)
 
 ## _Statut du projet_
